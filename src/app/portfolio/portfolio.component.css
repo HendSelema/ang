@@ -1,0 +1,54 @@
+.portfolio-section{
+color: #2c3e50 ;   
+margin-top: 6rem;
+}
+h1{
+    font-size: 50px;
+}
+.star{
+    width: fit-content;
+}
+.star{
+    position: relative;
+    padding-inline:20px ;
+}
+
+.star::before{
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    height: 5px;
+    width: 100px;
+    background-color:#2c3e50;
+
+}
+.star::after{
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    height: 5px;
+    width: 100px;
+    background-color: #2c3e50;
+
+}
+.image{
+    cursor: pointer;
+    transition: all 1s ;
+
+}
+.layer i{
+    font-size: 80px;
+
+}
+
+.layer{
+    background-color: rgb(83, 171, 142,.9);
+
+}
+
+.image:hover .layer{
+    display: block !important;
+    display: flex !important;
+}

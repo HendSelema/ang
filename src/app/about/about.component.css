@@ -1,0 +1,35 @@
+.about-section{
+    background-color: #5cbd9d;
+   
+}
+
+.star{
+    width: fit-content;
+}
+.star{
+    position: relative;
+    padding-inline:20px ;
+}
+
+.star::before{
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    height: 5px;
+    width: 100px;
+    background-color: white;
+    color: white;
+
+}
+.star::after{
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    height: 5px;
+    width: 100px;
+    background-color: white;
+    color: white;
+
+}
